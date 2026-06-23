@@ -1071,14 +1071,19 @@ document.getElementById('sendTestBtn').addEventListener('click', async function(
 (async function bootstrap(){
   try{
     await loadLiveData();
+    renderDashboard();
   }catch(e){
-    console.warn('[dashboard] Dùng dữ liệu demo:', e.message);
+    console.warn('[dashboard] Lỗi load data hoặc render, dùng dữ liệu demo:', e.message);
     DATA = DEMO_FALLBACK;
     setConnPill(false);
     document.getElementById('directorName').textContent = 'Giám đốc Vùng TNB';
     document.getElementById('directorRole').textContent = 'Demo — chưa đăng nhập SSO';
+    try {
+      renderDashboard();
+    } catch(err) {
+      console.error('[dashboard] Lỗi nghiêm trọng khi render dữ liệu demo:', err.message);
+    }
   }
-  renderDashboard();
 })();
 </script>
 </body>
