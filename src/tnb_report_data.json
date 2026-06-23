@@ -1,0 +1,469 @@
+{
+    "update_time": "23/06/2026 14:41:15",
+    "overview": {
+        "revenue_n1": 33300000.0,
+        "volume_n1": 2188.0,
+        "revenue_month": 832500000.0,
+        "volume_month": 144000.0,
+        "growth_week": 5.4,
+        "growth_month": 12.1
+    },
+    "gtc_by_am": [
+        {
+            "am": "Phan Thanh Cần",
+            "province": "Zone Cần Thơ, Cà Mau",
+            "rate": 69.3,
+            "delta": "+4.1%"
+        },
+        {
+            "am": "Nguyễn Vĩnh Tường",
+            "province": "Zone Cần Thơ",
+            "rate": 68.7,
+            "delta": "+8.6%"
+        },
+        {
+            "am": "Nguyễn Phi Hùng",
+            "province": "Zone Cần Thơ",
+            "rate": 68.2,
+            "delta": "+10.0%"
+        },
+        {
+            "am": "Phạm Quốc Huy",
+            "province": "Zone An Giang",
+            "rate": 67.3,
+            "delta": "+4.2%"
+        },
+        {
+            "am": "Lê Thanh Tiền",
+            "province": "Zone Cà Mau",
+            "rate": 63.8,
+            "delta": "-4.6%"
+        },
+        {
+            "am": "Đoàn Hồng Thắng",
+            "province": "Zone Cần Thơ, An Giang",
+            "rate": 61.1,
+            "delta": "+7.3%"
+        },
+        {
+            "am": "Trần Công Sạch",
+            "province": "Zone An Giang",
+            "rate": 60.7,
+            "delta": "+8.2%"
+        },
+        {
+            "am": "Đỗ Văn Nhì",
+            "province": "Zone An Giang",
+            "rate": 59.4,
+            "delta": "+5.4%"
+        },
+        {
+            "am": "Nguyễn Bình Định",
+            "province": "Zone An Giang",
+            "rate": 59.1,
+            "delta": "+8.3%"
+        },
+        {
+            "am": "Huỳnh Khánh Duy",
+            "province": "Zone Cà Mau",
+            "rate": 58.4,
+            "delta": "-0.1%"
+        },
+        {
+            "am": "Nguyễn Trọng Hậu",
+            "province": "Zone Cần Thơ, An Giang",
+            "rate": 50.9,
+            "delta": "+0.5%"
+        },
+        {
+            "am": "Lê Minh Tú",
+            "province": "Zone Cà Mau",
+            "rate": 49.3,
+            "delta": "+2.0%"
+        },
+        {
+            "am": "Chế Minh Công",
+            "province": "Zone Cà Mau",
+            "rate": 46.3,
+            "delta": "+2.4%"
+        }
+    ],
+    "worst_10_hubs": [
+        {
+            "code": "2431",
+            "name": "Bưu cục Xã Tam Giang-Cà Mau",
+            "rate": 48.247052409597444,
+            "units": 1238,
+            "delay_units": 1238,
+            "am": "Chế Minh Công"
+        },
+        {
+            "code": "21011000",
+            "name": "Bưu cục Xã Vĩnh Hòa-Kiên Giang",
+            "rate": 51.37308817213959,
+            "units": 836,
+            "delay_units": 836,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "2474",
+            "name": "Bưu cục Xã Vĩnh Trạch-An Giang",
+            "rate": 51.646228666525474,
+            "units": 864,
+            "delay_units": 864,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "1409",
+            "name": "Bưu cục Xã Vĩnh Xương-An Giang",
+            "rate": 51.911727973521494,
+            "units": 2113,
+            "delay_units": 2113,
+            "am": "Nguyễn Trọng Hậu"
+        },
+        {
+            "code": "1424",
+            "name": "Bưu cục Xã Thạnh Đông-Kiên Giang",
+            "rate": 54.003992413183155,
+            "units": 3788,
+            "delay_units": 3788,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "20902000",
+            "name": "Bưu cục Xã Tiên Hải-Kiên Giang",
+            "rate": 54.83405057276161,
+            "units": 6289,
+            "delay_units": 6289,
+            "am": "Đoàn Hồng Thắng"
+        },
+        {
+            "code": "21017000",
+            "name": "Bưu cục Xã Vĩnh Thạnh Trung-An Giang",
+            "rate": 54.85015583585867,
+            "units": 2009,
+            "delay_units": 2009,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "20630000",
+            "name": "Bưu cục Xã Vân Khánh-Kiên Giang",
+            "rate": 54.95195907359181,
+            "units": 4462,
+            "delay_units": 4462,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "21330000",
+            "name": "Bưu cục Xã Sông Đốc-Cà Mau",
+            "rate": 55.94546659012774,
+            "units": 1676,
+            "delay_units": 1676,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "22403000",
+            "name": "Bưu cục Xã Sơn Kiên-Kiên Giang",
+            "rate": 56.27122173916179,
+            "units": 1770,
+            "delay_units": 1770,
+            "am": "Nguyễn Bình Định"
+        }
+    ],
+    "worst_gtc_hubs": [
+        {
+            "code": "2431",
+            "name": "Bưu cục Xã Tam Giang-Cà Mau",
+            "rate": 48.247052409597444,
+            "units": 1238,
+            "delay_units": 1238,
+            "am": "Chế Minh Công"
+        },
+        {
+            "code": "21011000",
+            "name": "Bưu cục Xã Vĩnh Hòa-Kiên Giang",
+            "rate": 51.37308817213959,
+            "units": 836,
+            "delay_units": 836,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "2474",
+            "name": "Bưu cục Xã Vĩnh Trạch-An Giang",
+            "rate": 51.646228666525474,
+            "units": 864,
+            "delay_units": 864,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "1409",
+            "name": "Bưu cục Xã Vĩnh Xương-An Giang",
+            "rate": 51.911727973521494,
+            "units": 2113,
+            "delay_units": 2113,
+            "am": "Nguyễn Trọng Hậu"
+        },
+        {
+            "code": "1424",
+            "name": "Bưu cục Xã Thạnh Đông-Kiên Giang",
+            "rate": 54.003992413183155,
+            "units": 3788,
+            "delay_units": 3788,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "20902000",
+            "name": "Bưu cục Xã Tiên Hải-Kiên Giang",
+            "rate": 54.83405057276161,
+            "units": 6289,
+            "delay_units": 6289,
+            "am": "Đoàn Hồng Thắng"
+        },
+        {
+            "code": "21017000",
+            "name": "Bưu cục Xã Vĩnh Thạnh Trung-An Giang",
+            "rate": 54.85015583585867,
+            "units": 2009,
+            "delay_units": 2009,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "20630000",
+            "name": "Bưu cục Xã Vân Khánh-Kiên Giang",
+            "rate": 54.95195907359181,
+            "units": 4462,
+            "delay_units": 4462,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "21330000",
+            "name": "Bưu cục Xã Sông Đốc-Cà Mau",
+            "rate": 55.94546659012774,
+            "units": 1676,
+            "delay_units": 1676,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "22403000",
+            "name": "Bưu cục Xã Sơn Kiên-Kiên Giang",
+            "rate": 56.27122173916179,
+            "units": 1770,
+            "delay_units": 1770,
+            "am": "Nguyễn Bình Định"
+        }
+    ],
+    "worst_odr_hubs": [
+        {
+            "code": "21319000",
+            "name": "Bưu cục Xã Phú Tân-An Giang",
+            "rate": 82.74139713988617,
+            "units": 7076,
+            "delay_units": 7076,
+            "am": "Đoàn Hồng Thắng"
+        },
+        {
+            "code": "1084",
+            "name": "Bưu cục Xã Hội An-An Giang",
+            "rate": 83.02441327587782,
+            "units": 3904,
+            "delay_units": 3904,
+            "am": "Đoàn Hồng Thắng"
+        },
+        {
+            "code": "21590000",
+            "name": "Bưu cục Phường Ninh Kiều-Cần Thơ",
+            "rate": 83.34344599898157,
+            "units": 6496,
+            "delay_units": 6496,
+            "am": "Nguyễn Phi Hùng"
+        },
+        {
+            "code": "20902000",
+            "name": "Bưu cục Xã Tiên Hải-Kiên Giang",
+            "rate": 83.44982554446945,
+            "units": 6289,
+            "delay_units": 6289,
+            "am": "Đoàn Hồng Thắng"
+        },
+        {
+            "code": "21621000",
+            "name": "Bưu cục Xã Trung Hưng-Cần Thơ",
+            "rate": 83.55886135076778,
+            "units": 2959,
+            "delay_units": 2959,
+            "am": "Nguyễn Phi Hùng"
+        },
+        {
+            "code": "21644000",
+            "name": "Bưu cục Xã Thuận Hòa-Sóc Trăng",
+            "rate": 83.5923747934007,
+            "units": 4101,
+            "delay_units": 4101,
+            "am": "Nguyễn Phi Hùng"
+        },
+        {
+            "code": "20816000",
+            "name": "Bưu cục Xã Vĩnh Tường-Hậu Giang",
+            "rate": 83.92127798630752,
+            "units": 7235,
+            "delay_units": 7235,
+            "am": "Nguyễn Phi Hùng"
+        },
+        {
+            "code": "20645000",
+            "name": "Bưu cục Xã Thạnh Xuân-Hậu Giang",
+            "rate": 84.86670536355565,
+            "units": 1513,
+            "delay_units": 1513,
+            "am": "Nguyễn Phi Hùng"
+        },
+        {
+            "code": "1409",
+            "name": "Bưu cục Xã Vĩnh Xương-An Giang",
+            "rate": 84.90091613172537,
+            "units": 2113,
+            "delay_units": 2113,
+            "am": "Nguyễn Trọng Hậu"
+        },
+        {
+            "code": "20947000",
+            "name": "Bưu cục Xã Trường Long Tây-Hậu Giang",
+            "rate": 84.92322177284555,
+            "units": 5729,
+            "delay_units": 5729,
+            "am": "Nguyễn Phi Hùng"
+        }
+    ],
+    "worst_fd_hubs": [
+        {
+            "code": "21646000",
+            "name": "Bưu cục Đầm Dơi-Cà Mau",
+            "rate": 24.0,
+            "units": 5760,
+            "return_units": 5760,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "22417000",
+            "name": "Bưu cục Xã Vĩnh Mỹ-Bạc Liêu",
+            "rate": 17.732233067127865,
+            "units": 1950,
+            "return_units": 1950,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "21330000",
+            "name": "Bưu cục Xã Sông Đốc-Cà Mau",
+            "rate": 17.310916657201574,
+            "units": 7270,
+            "return_units": 7270,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "22212000",
+            "name": "Bưu cục Xã Trí Phải-Cà Mau",
+            "rate": 17.23810123783539,
+            "units": 3102,
+            "return_units": 3102,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "22462000",
+            "name": "Bưu cục Xã Vĩnh Lợi-Bạc Liêu",
+            "rate": 16.738332682691123,
+            "units": 1841,
+            "return_units": 1841,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "22207000",
+            "name": "Bưu cục Xã Vĩnh Thanh-Bạc Liêu",
+            "rate": 16.71369707655444,
+            "units": 4345,
+            "return_units": 4345,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "21505000",
+            "name": "Bưu cục Phường Láng Tròn-Bạc Liêu",
+            "rate": 15.737003970241878,
+            "units": 2832,
+            "return_units": 2832,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "22208000",
+            "name": "Bưu cục Xã Vĩnh Lộc-Bạc Liêu",
+            "rate": 15.43575782586868,
+            "units": 3087,
+            "return_units": 3087,
+            "am": "Lê Thanh Tiền"
+        },
+        {
+            "code": "22682000",
+            "name": "Bưu cục Phường Vĩnh Thông-Kiên Giang",
+            "rate": 14.333463806842026,
+            "units": 4586,
+            "return_units": 4586,
+            "am": "Nguyễn Bình Định"
+        },
+        {
+            "code": "20877001",
+            "name": "Bưu cục Đặc khu Thổ Châu-Kiên Giang",
+            "rate": 14.030220551754141,
+            "units": 6453,
+            "return_units": 6453,
+            "am": "Trần Công Sạch"
+        }
+    ],
+    "odr_by_province": {
+        "average": 89.9,
+        "detail": [
+            {
+                "province": "Cần Thơ",
+                "rate": 90.2
+            },
+            {
+                "province": "An Giang",
+                "rate": 89.5
+            },
+            {
+                "province": "Cà Mau",
+                "rate": 87.8
+            },
+            {
+                "province": "Bạc Liêu",
+                "rate": 90.5
+            },
+            {
+                "province": "Hậu Giang",
+                "rate": 91.2
+            }
+        ]
+    },
+    "fd_by_province": {
+        "average": 2.85,
+        "detail": [
+            {
+                "province": "Cần Thơ",
+                "rate": 2.1
+            },
+            {
+                "province": "An Giang",
+                "rate": 2.9
+            },
+            {
+                "province": "Cà Mau",
+                "rate": 3.8
+            },
+            {
+                "province": "Bạc Liêu",
+                "rate": 3.1
+            },
+            {
+                "province": "Hậu Giang",
+                "rate": 2.2
+            }
+        ]
+    }
+}

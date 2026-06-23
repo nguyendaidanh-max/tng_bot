@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - Bảng điều khiển TNB OPS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg: #060b18;
+            --panel: #0f1729;
+            --border: rgba(148,170,210,0.12);
+            --text: #e9eef8;
+            --text-dim: #8c9bb5;
+            --orange: #ff7a1a;
+            --orange-2: #ff5a1a;
+            --bad: #ff4d5e;
+            --bad-soft: rgba(255,77,94,0.10);
+            --good: #2bd576;
+            --radius: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', system-ui, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .bg-effects {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            background:
+                radial-gradient(ellipse 600px 400px at 50% 30%, rgba(255,122,26,0.08), transparent 60%),
+                radial-gradient(ellipse 500px 400px at 80% 80%, rgba(79,163,255,0.04), transparent 50%);
+        }
+
+        .login-card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 40px;
+            width: 100%;
+            max-width: 420px;
+            z-index: 10;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(20px);
+            text-align: center;
+            animation: fadeIn 0.6s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .login-logo {
+            font-size: 40px;
+            color: var(--orange);
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 15px rgba(255,122,26,0.3));
+        }
+
+        .login-card h2 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .login-card p {
+            font-size: 13px;
+            color: var(--text-dim);
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .form-group {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .input-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .input-wrapper i {
+            position: absolute;
+            left: 14px;
+            color: var(--text-dim);
+            font-size: 14px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 14px 12px 40px;
+            background: rgba(10, 16, 32, 0.6);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.25s ease;
+        }
+
+        .form-control:focus {
+            border-color: var(--orange);
+            box-shadow: 0 0 0 3px rgba(255, 122, 26, 0.15);
+        }
+
+        .error-msg {
+            color: var(--bad);
+            background: var(--bad-soft);
+            border: 1px solid rgba(255, 77, 94, 0.2);
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 12.5px;
+            margin-bottom: 20px;
+            display: none;
+            align-items: center;
+            gap: 8px;
+            text-align: left;
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, var(--orange), var(--orange-2));
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-submit:hover {
+            box-shadow: 0 4px 20px rgba(255, 122, 26, 0.4);
+            transform: translateY(-1px);
+        }
+
+        .btn-submit:active {
+            transform: translateY(0);
+        }
+
+        .btn-submit:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-effects"></div>
+    <div class="login-card">
+        <div class="login-logo">
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <h2>HỆ THỐNG LOGISYNC TNB</h2>
+        <p>Bảng điều khiển giám sát vận hành bảo mật vùng Tây Nam Bộ</p>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="password">Mật khẩu truy cập</label>
+                <div class="input-wrapper">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" id="password" class="form-control" placeholder="Nhập mật khẩu..." required autofocus>
+                </div>
+            </div>
+
+            <div id="errorAlert" class="error-msg">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <span id="errorText"></span>
+            </div>
+
+            <button type="submit" id="btnSubmit" class="btn-submit">
+                Xác thực đăng nhập <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const passwordInput = document.getElementById('password');
+            const errorAlert = document.getElementById('errorAlert');
+            const errorText = document.getElementById('errorText');
+            const btnSubmit = document.getElementById('btnSubmit');
+
+            errorAlert.style.display = 'none';
+            btnSubmit.disabled = true;
+            btnSubmit.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Đang xác thực...';
+
+            try {
+                const response = await fetch('/auth/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ password: passwordInput.value })
+                });
+
+                const data = await response.json();
+                if (response.ok && data.success) {
+                    window.location.href = '/';
+                } else {
+                    errorText.textContent = data.error || 'Đăng nhập không thành công';
+                    errorAlert.style.display = 'flex';
+                    btnSubmit.disabled = false;
+                    btnSubmit.innerHTML = 'Xác thực đăng nhập <i class="fa-solid fa-arrow-right"></i>';
+                }
+            } catch (err) {
+                errorText.textContent = 'Lỗi kết nối máy chủ. Thử lại sau!';
+                errorAlert.style.display = 'flex';
+                btnSubmit.disabled = false;
+                btnSubmit.innerHTML = 'Xác thực đăng nhập <i class="fa-solid fa-arrow-right"></i>';
+            }
+        });
+    </script>
+</body>
+</html>
