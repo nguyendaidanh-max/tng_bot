@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
   :root{
     --bg: #060b18;
@@ -157,12 +158,12 @@
   .director .name{font-size:12px; font-weight:600;}
   .director .role{font-size:10px; color:var(--text-dim);}
   .logout-link{
-    font-size:11px; color:var(--text-faint); text-decoration:none;
+    font-size:13px; color:var(--text-faint); text-decoration:none;
     margin-left:4px; transition:var(--transition);
     width:24px; height:24px; border-radius:6px; display:flex;
     align-items:center; justify-content:center;
   }
-  .logout-link:hover{color:var(--bad); background:var(--bad-soft);}
+  .logout-link:hover{color:var(--bad); background:var(--bad-soft); transform: scale(1.05);}
   .conn-pill{
     display:flex; align-items:center; gap:6px; font-size:11px;
     padding:6px 12px; border-radius:20px; border:1px solid var(--border);
@@ -517,7 +518,7 @@
         <div class="name" id="directorName">Đang xác thực…</div>
         <div class="role" id="directorRole">GHN SSO</div>
       </div>
-      <a class="logout-link" href="/auth/logout" title="Đăng xuất">⏻</a>
+      <a class="logout-link" href="/auth/logout" title="Đăng xuất"><i class="fa-solid fa-right-from-bracket"></i></a>
     </div>
   </div>
 </div>

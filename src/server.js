@@ -49,6 +49,9 @@ const PORT = process.env.PORT || 3000;
 
 /** Chặn truy cập nếu chưa đăng nhập bằng mật khẩu */
 function requireAuth(req, res, next) {
+  if (req.path === '/login.html') {
+    return next();
+  }
   if (req.session && req.session.authenticated) {
     return next();
   }
